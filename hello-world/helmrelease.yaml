@@ -17,4 +17,4 @@ spec:
       interval: 1m
   values:
     image:
-      tag: 202205051932 # {"$imagepolicy": "flux-system:hello-world:tag"}
+      tag: "202205051932" # {"$imagepolicy": "flux-system:hello-world:tag"}
