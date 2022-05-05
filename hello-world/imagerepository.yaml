@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: hello-world
+  namespace: flux-system
+spec:
+  interval: 10m
+  image: ghcr.io/sdm4fzi/hello-world
