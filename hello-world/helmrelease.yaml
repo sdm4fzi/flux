@@ -15,6 +15,3 @@ spec:
         name: sdm4fzi
         namespace: flux-system
       interval: 1m
-  values:
-    image:
-      tag: "v202205061200" # {"$imagepolicy": "flux-system:hello-world:tag"}
