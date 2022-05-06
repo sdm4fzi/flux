@@ -4,6 +4,9 @@ metadata:
   name: hello-world
   namespace: flux-system
 spec:
+  filterTags:
+    pattern: '^v(?P<datetime>.*)$'
+    extract: '$datetime'
   imageRepositoryRef:
     name: hello-world
     namespace: flux-system
